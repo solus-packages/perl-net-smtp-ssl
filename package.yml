@@ -1,0 +1,21 @@
+name        : perl-net-smtp-ssl
+version     : 1.03
+release     : 6
+source     :
+    - http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Net-SMTP-SSL-1.03.tar.gz : 305d0fdd74bb7339d1928e738b247262c0f708149781c5771583b71d5625c917
+license     :
+    - Artistic-Perl-1.0
+summary     : Net::SMTP::SSL - SSL support for Net::SMTP
+component   : programming.perl
+builddeps   :
+    - perl
+    - perl-libnet
+    - perl-io-socket-ssl
+description : |
+    Net::SMTP::SSL - SSL support for Net::SMTP
+setup      : |
+    %perl_setup
+build      : |
+    %perl_build
+install    : |
+    %perl_install
